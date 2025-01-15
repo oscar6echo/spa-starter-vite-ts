@@ -22,3 +22,9 @@ Best shortcut is Ctrl+Space twice.
 ```sh
 pnpm add -D prettier eslint-config-prettier
 ```
+
+## VS Code extensions
+
++ [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
++ [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
++ [continue](https://marketplace.visualstudio.com/items?itemName=Continue.continue)
