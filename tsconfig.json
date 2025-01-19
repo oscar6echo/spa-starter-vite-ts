@@ -20,5 +20,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src/**/*.ts", "eslint.config.mmjs"]
+  "include": ["src/**/*.ts"]
 }
