@@ -1,6 +1,4 @@
-// @ts-check
-
-import tseslint from "typescript-eslint";
+import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
   tseslint.configs.strictTypeChecked,
@@ -9,11 +7,11 @@ export default tseslint.config(
     languageOptions: {
       parserOptions: {
         projectService: {
-          allowDefaultProject: ["eslint.config.js"],
-          defaultProject: "tsconfig.json",
+          allowDefaultProject: ['eslint.config.js'],
+          defaultProject: 'tsconfig.json',
         },
         tsconfigRootDir: String(import.meta.dirname),
       },
     },
-  }
+  },
 );
